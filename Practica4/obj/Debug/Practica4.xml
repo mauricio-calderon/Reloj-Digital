@@ -32,6 +32,11 @@ Practica4
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Practica4.My.Resources.Resources.crono">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Practica4.My.Resources.Resources.imagen">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.

@@ -96,26 +96,53 @@
         End If
     End Sub
 
-    Private Sub start_Click(sender As Object, e As EventArgs) Handles start.Click
+    'Codigo para el cronometro 
+
+    Private startTime As DateTime
+    Private elapsed As TimeSpan = TimeSpan.Zero
+
+    Private Sub start_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub reset_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Timer3_Tick(sender As Object, e As EventArgs) Handles Timer3.Tick
+
+        Dim current = elapsed + (DateTime.Now - startTime)
+        tiempo.Text = current.ToString("hh\:mm\:ss\.ff")
+
+    End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+        If Panel2.Visible = False Then
+            Panel2.Visible = True
+        ElseIf Panel2.Visible = True Then
+            Panel2.Visible = False
+        End If
+    End Sub
+
+    Private Sub start_Click_1(sender As Object, e As EventArgs) Handles start.Click
         If boton_start = False Then
             Timer3.Enabled = True
             boton_start = True
             start.Text = "Stop"
+            startTime = DateTime.Now
         ElseIf boton_start = True Then
             Timer3.Enabled = False
             boton_start = False
             start.Text = "Start"
+            elapsed += DateTime.Now - startTime
         End If
     End Sub
 
-    Private Sub reset_Click(sender As Object, e As EventArgs) Handles reset.Click
-        tiempo_crono = 0
+    Private Sub reset_Click_1(sender As Object, e As EventArgs) Handles reset.Click
+        elapsed = TimeSpan.Zero
         Timer3.Enabled = False
-        tiempo.Text = "0"
-    End Sub
-
-    Private Sub Timer3_Tick(sender As Object, e As EventArgs) Handles Timer3.Tick
-        tiempo_crono = tiempo_crono + 1
-        tiempo.Text = tiempo_crono.ToString()
+        tiempo.Text = "00:00:00.00"
+        boton_start = False
+        start.Text = "Start"
     End Sub
 End Class

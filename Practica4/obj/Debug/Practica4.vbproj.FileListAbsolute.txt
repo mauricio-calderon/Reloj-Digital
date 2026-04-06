@@ -10,3 +10,15 @@ C:\MAURICIO 25966\Practica4\Practica4\obj\Debug\Practica4.vbproj.CoreCompileInpu
 C:\MAURICIO 25966\Practica4\Practica4\obj\Debug\Practica4.exe
 C:\MAURICIO 25966\Practica4\Practica4\obj\Debug\Practica4.xml
 C:\MAURICIO 25966\Practica4\Practica4\obj\Debug\Practica4.pdb
+C:\Users\mau_c\Downloads\Reloj-Digital-main (1)\Reloj-Digital-main\Practica4\bin\Debug\Practica4.exe.config
+C:\Users\mau_c\Downloads\Reloj-Digital-main (1)\Reloj-Digital-main\Practica4\bin\Debug\Practica4.exe
+C:\Users\mau_c\Downloads\Reloj-Digital-main (1)\Reloj-Digital-main\Practica4\bin\Debug\Practica4.pdb
+C:\Users\mau_c\Downloads\Reloj-Digital-main (1)\Reloj-Digital-main\Practica4\bin\Debug\Practica4.xml
+C:\Users\mau_c\Downloads\Reloj-Digital-main (1)\Reloj-Digital-main\Practica4\obj\Debug\Practica4.vbproj.AssemblyReference.cache
+C:\Users\mau_c\Downloads\Reloj-Digital-main (1)\Reloj-Digital-main\Practica4\obj\Debug\Practica4.Form1.resources
+C:\Users\mau_c\Downloads\Reloj-Digital-main (1)\Reloj-Digital-main\Practica4\obj\Debug\Practica4.Resources.resources
+C:\Users\mau_c\Downloads\Reloj-Digital-main (1)\Reloj-Digital-main\Practica4\obj\Debug\Practica4.vbproj.GenerateResource.cache
+C:\Users\mau_c\Downloads\Reloj-Digital-main (1)\Reloj-Digital-main\Practica4\obj\Debug\Practica4.vbproj.CoreCompileInputs.cache
+C:\Users\mau_c\Downloads\Reloj-Digital-main (1)\Reloj-Digital-main\Practica4\obj\Debug\Practica4.exe
+C:\Users\mau_c\Downloads\Reloj-Digital-main (1)\Reloj-Digital-main\Practica4\obj\Debug\Practica4.xml
+C:\Users\mau_c\Downloads\Reloj-Digital-main (1)\Reloj-Digital-main\Practica4\obj\Debug\Practica4.pdb
