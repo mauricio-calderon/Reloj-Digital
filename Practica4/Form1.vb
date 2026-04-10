@@ -101,14 +101,6 @@
     Private startTime As DateTime
     Private elapsed As TimeSpan = TimeSpan.Zero
 
-    Private Sub start_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub reset_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
     Private Sub Timer3_Tick(sender As Object, e As EventArgs) Handles Timer3.Tick
 
         Dim current = elapsed + (DateTime.Now - startTime)
@@ -144,5 +136,15 @@
         tiempo.Text = "00:00:00.00"
         boton_start = False
         start.Text = "Start"
+    End Sub
+
+    'Codigo del temporizador
+
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
+        If Panel3.Visible = True Then
+            Panel3.Visible = False
+        ElseIf Panel3.Visible = False Then
+            Panel3.Visible = True
+        End If
     End Sub
 End Class

@@ -134,5 +134,8 @@
   <ItemGroup>
     <None Include="Resources\crono.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono_temp.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
